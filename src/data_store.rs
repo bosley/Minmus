@@ -84,7 +84,7 @@ where V: Clone + Copy,                          // This is used to ensure that t
     as we intend it to. This test can be run with **cargo test**
 
     As an interesting aside - The example within the documentation above will actually be executed during a test
-    which will ensure that out example is accurate!
+    which will ensure that our example is accurate!
 */
 
 #[cfg(test)]    // Indicate that the module is a test
